@@ -1,0 +1,109 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: white;
+  background-image: url('../images/airport1.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.btn {
+  padding-top: 0.00rem;
+  padding-bottom: 0.00rem;
+}
+
+.bottom-row {
+    border-bottom: 1px solid #dee2e6;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(222, 226, 230);
+}
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+
+.description h1 {
+  color: #F3D55B;
+}
+
+.description p {
+  color: #FCE68D;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.description button {
+  border:1px solid #5072BB;
+  background:#5072BB;
+  border-radius: 0;
+  color:#fff;
+}
+
+.description button:hover {
+  border:1px solid #fff;
+  background:#fff;
+  color:#000;
+}
+
+/*--- navigation bar ---*/
+.navbar {
+  background:#3559b6;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+  font-family: Lato;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+
+/* Setting up display for mobile devices */
+@media (max-width: 575.98px) {
+  .description {
+    left: 0;
+    padding: 0 15px;
+    position: absolute;
+    top: 10%;
+    transform: none;
+    text-align: center;
+  }
+  
+  .description h1 {
+    font-size: 2em;
+  }
+  
+  .description p {
+    font-size: 1.2rem;
+  }
+  
+  .features {
+    margin: 0;
+  }
+}
