@@ -83,7 +83,6 @@ body {
   justify-content: flex-end;
 }
 
-
 /* Setting up display for mobile devices */
 @media (max-width: 575.98px) {
   .description {
